@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    
+</head>
+<body>
+    <section id="toDoForm">
+        <div class="title">today list</div>
+        <div class="inputbox">
+            <input placeholder="내용을 입력해주세요" id="upload_textbox">
+            <input type="submit" id="add_button" value="추가하기"name="test2" onclick="createtodo()" >
+            <input type="date" name="date" id="date" max="9999-12-31">
+        </div>
+        <div>
+            <ul id="list_table">
+            </ul>
+        </div>
+</section>
+<script src="./assets/js.js"></script>
+</body>
+</html>
